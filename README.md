@@ -28,6 +28,7 @@ Built using **Cloudflare Workers AI (Llama 3.1)**, **Durable Objects**, and **Wo
 ```bash
 npm install
 npx wrangler dev
+```
 
-🔗 Live Demo: https://cf_ai_certassistant.sujithk1910.workers.dev
+## 🔗 Live Demo: https://cf_ai_certassistant.sujithk1910.workers.dev
 
