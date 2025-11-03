@@ -1,0 +1,15 @@
+name = "cf_ai_certassistant"
+main = "src/index.js"
+compatibility_date = "2025-11-03"
+
+[ai]
+binding = "AI"
+remote = true
+
+[durable_objects]
+bindings = [{ name = "SESSION", class_name = "SessionMemory" }]
+
+[[migrations]]
+tag = "v1"
+new_sqlite_classes = ["SessionMemory"]
+
